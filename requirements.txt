@@ -1,0 +1,3 @@
+exabgp==4.2.16
+mrtparse==2.0.1
+tqdm==4.64.0
