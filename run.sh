@@ -1,6 +1,6 @@
 #!/bin/bash
 
-base_url="http://archive.routeviews.org/bgpdata/$(date -u +%Y).$(date -u +%m)/RIBS/"
+base_url="http://archive.routeviews.org/route-views6/bgpdata/$(date -u +%Y).$(date -u +%m)/RIBS/"
 
 fn="rib.$(date -u +%Y%m%d).$(printf %02d $(($(date -u +%H)-$(date -u +%H)%2)))00"
 
