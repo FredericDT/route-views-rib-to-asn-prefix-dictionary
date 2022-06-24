@@ -69,7 +69,7 @@ def rib_entry_to_asn_route_pair(e):
             as_routes = {}
             for i in as_origin:
                 as_routes_append(as_routes, i, nlri)
-            print(as_routes)
+            # print(as_routes)
             return as_routes
             # return list(
             #     map(
